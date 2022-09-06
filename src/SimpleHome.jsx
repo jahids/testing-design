@@ -10,6 +10,8 @@ const SimpleHome = () => {
         <div>
                 
                 <DateRangePicker 
+                onChange={(data)=>(console.log(data))}
+                
                 format="MM/dd/yyyy"
                 defaultCalendarValue={
                 [new Date('2022-02-01 00:00:00'), new Date('2022-03-01 23:59:59')]
